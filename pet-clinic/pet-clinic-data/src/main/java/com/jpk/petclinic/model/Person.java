@@ -1,6 +1,8 @@
 package com.jpk.petclinic.model;
 
-public class Person {
+import com.sun.xml.internal.rngom.parse.host.Base;
+
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
