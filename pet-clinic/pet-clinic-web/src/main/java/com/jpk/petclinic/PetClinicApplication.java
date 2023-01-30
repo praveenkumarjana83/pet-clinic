@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.jpk.controller"})
+@ComponentScan(basePackages = {"com.jpk.controller", "com.jpk.bootstrap", "com.jpk.petclinic.services"})
 public class PetClinicApplication {
 
 	public static void main(String[] args) {
