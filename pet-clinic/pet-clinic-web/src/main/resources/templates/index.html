@@ -5,6 +5,12 @@
     <title>Pet Clinic Index Page</title>
 </head>
 <body>
-  <h1 th:text="'This is Index Page'">This is Index Page</h1>
+  <h2 th:text="#{welcome}">This is Index Page</h2>
+
+  <div class="row">
+      <div class="col-md-12">
+          <img class="img-responsive" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
+      </div>
+  </div>
 </body>
 </html>
